@@ -1,63 +1,54 @@
 # ServiceNow specific
 *.xml.bak
-*.log
-*.tmp
+update_sets/*.xml.backup
 
-# Update sets
-update_sets/*.xml
-!update_sets/.gitkeep
-
-# OS specific
-.DS_Store
-Thumbs.db
-
-# IDE specific
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# Node modules (if using any build tools)
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
 node_modules/
 npm-debug.log
 yarn-error.log
-package-lock.json
-yarn.lock
 
-# Environment files
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
 .env
-.env.local
-.env.*.local
-
-# Credentials (never commit these!)
-**/credentials.json
-**/secrets.json
-*.pem
-*.key
-
-# Build outputs
-dist/
-build/
-*.min.js
-*.min.css
-
-# Documentation build outputs
-docs/_build/
-
-# Test coverage
-coverage/
-.nyc_output/
-
-# Temporary files
-*.cache
-*.pid
-*.seed
-*.pid.lock
+venv/
+ENV/
 
 # Logs
-logs/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Secrets
+.env.local
+.env.*.local
+secrets/
+credentials.json
+
+# ServiceNow credentials (DO NOT COMMIT)
+*password*
+*credentials*
+*token*
