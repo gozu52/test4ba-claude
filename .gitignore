@@ -5,3 +5,57 @@ node_modules/
 target/
 *.tsbuildinfo
 .jest_cache
+# ServiceNow specific
+*.xml.bak
+update_sets/*.xml.backup
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+venv/
+ENV/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Secrets
+.env.local
+.env.*.local
+secrets/
+credentials.json
+
+# ServiceNow credentials (DO NOT COMMIT)
+*password*
+*credentials*
+*token*
