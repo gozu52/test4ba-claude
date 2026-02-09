@@ -1,0 +1,18 @@
+{
+    "name": "x-snc-hotel-equipment-request-management",
+    "version": "1.0.0",
+    "description": "[BUILD AGENT GENERATED]:  ServiceNow application for managing on-site work requests for hotel equipment including projectors, whiteboards, and other conference room facilities",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk install",
+        "transform": "now-sdk transform",
+        "types": "now-sdk dependencies"
+    },
+    "devDependencies": {
+        "@servicenow/sdk": "4.2.0",
+        "@servicenow/glide": "26.0.1",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "4.2.0"
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "scope": "x_snc_hotel_equipm",
+  "scopeId": "f87f5bc83bcf7e906ea7088aa4e45a3f",
+  "name": "Hotel Equipment Request Management",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
