@@ -184,5 +184,7 @@ export const x_snc_hotel_equipm_on_site_work_request = Table({
     },
     display: 'short_description',
     extensible: false,
-    audit: true
+    audit: true,
+    allow_web_service_access: true,
+    actions: ['create', 'read', 'update', 'delete']
 })

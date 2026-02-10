@@ -1,0 +1,140 @@
+/* リクエスト一覧スタイル */
+.request-list {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.list-header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.filters {
+  display: flex;
+  gap: 20px;
+  padding: 20px 24px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.filter-group label {
+  font-size: 12px;
+  color: #666;
+  font-weight: 500;
+}
+
+.filter-group select {
+  padding: 6px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+  background: white;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.request-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.request-table th {
+  background-color: #f8f9fa;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #495057;
+  border-bottom: 2px solid #e9ecef;
+  white-space: nowrap;
+}
+
+.request-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+}
+
+.request-table th.sortable:hover {
+  background-color: #e9ecef;
+}
+
+.request-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e9ecef;
+  vertical-align: top;
+}
+
+.request-row {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.request-row:hover {
+  background-color: #f8f9fa;
+}
+
+.request-number {
+  font-weight: 600;
+  color: #667eea;
+}
+
+.request-description {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.location-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.location-info small {
+  color: #666;
+  font-size: 12px;
+}
+
+.empty-results {
+  padding: 40px;
+  text-align: center;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .request-table {
+    font-size: 12px;
+  }
+  
+  .request-table th,
+  .request-table td {
+    padding: 8px;
+  }
+}

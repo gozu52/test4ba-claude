@@ -9,9 +9,49 @@ declare global {
                         table: 'sys_module'
                         id: '8e714897c1a44d4ca27d5f891704b44c'
                     }
+                    hotel_equipment_menu: {
+                        table: 'sys_app_application'
+                        id: '57bad4b8e68c4ae6aea4e13d44a64fd3'
+                    }
+                    'hotel-equipment-workspace': {
+                        table: 'sys_ui_page'
+                        id: '443c241a22714c8d9bd3082a15956228'
+                    }
+                    in_progress_requests_module: {
+                        table: 'sys_app_module'
+                        id: '5ee9dfbfaa5a49b3b961ca66b30aad13'
+                    }
+                    new_request_module: {
+                        table: 'sys_app_module'
+                        id: '64bf0dfe997a403ba36f73c99a79300b'
+                    }
                     package_json: {
                         table: 'sys_module'
                         id: '599e10fbe26948cfa649b509f5d9d6d2'
+                    }
+                    pending_requests_module: {
+                        table: 'sys_app_module'
+                        id: '0c5e5dc3dad549e58f82b33291cde2ff'
+                    }
+                    reports_separator: {
+                        table: 'sys_app_module'
+                        id: 'ac0e62f8c33f4deeb49e0ffd233e9643'
+                    }
+                    requests_table_module: {
+                        table: 'sys_app_module'
+                        id: 'cce0bb3bab634165a13d7460ecd25807'
+                    }
+                    workspace_module: {
+                        table: 'sys_app_module'
+                        id: 'a8bad72bacb44e41a0f7f91c2eb1c34d'
+                    }
+                    'x_snc_hotel_equipm/main': {
+                        table: 'sys_ux_lib_asset'
+                        id: '238e0e77ec374137be829481fbe6c39d'
+                    }
+                    'x_snc_hotel_equipm/main.js.map': {
+                        table: 'sys_ux_lib_asset'
+                        id: '3416d892e1054fba88ce8b18ad4796c3'
                     }
                 }
                 composite: [
